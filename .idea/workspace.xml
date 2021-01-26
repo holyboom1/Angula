@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3acbbd98-01f3-4345-ae2c-0a155dc80635" name="Default Changelist" comment="move from other repo">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/1_task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/dist/main.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/MainContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/Sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/parts/Getdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/parts/Toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/parts/datePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/parts/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/components/parts/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/json/items.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/less/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/src/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/.idea/task_React.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/AppParts/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/AppParts/carusel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/AppParts/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/AppParts/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/Article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/HomeContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/NewsContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/contentPart/fullNewS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/contentPart/newsItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/ContentParts/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/HeaderParts/menuUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/json/news.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/reducers/alertReduser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/reducers/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/reducers/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/Components/reducers/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/less/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/src/pug/pages/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsSite/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nbdZZ6mEpcLcCAA3aLkPr0Vvms" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Новая папка/react/myApp" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3acbbd98-01f3-4345-ae2c-0a155dc80635" name="Default Changelist" comment="" />
+      <created>1611662779682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611662779682</updated>
+      <workItem from="1611662780730" duration="69000" />
+      <workItem from="1611663198285" duration="294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="move from other repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="move from other repo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="806" y="242" key="FileChooserDialogImpl" timestamp="1611662848137">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="806" y="242" key="FileChooserDialogImpl/0.30.1920.1050/-1920.0.1920.1050/1920.49.1280.994@0.30.1920.1050" timestamp="1611662848137" />
+    <state x="527" y="132" key="SettingsEditor" timestamp="1611663358450">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="527" y="132" key="SettingsEditor/0.30.1920.1050/-1920.0.1920.1050/1920.49.1280.994@0.30.1920.1050" timestamp="1611663358450" />
+    <state x="855" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1611663369821">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="855" y="221" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.30.1920.1050/-1920.0.1920.1050/1920.49.1280.994@0.30.1920.1050" timestamp="1611663369821" />
+    <state x="844" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611663463136">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="844" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050/-1920.0.1920.1050/1920.49.1280.994@0.30.1920.1050" timestamp="1611663463136" />
+  </component>
+</project>
