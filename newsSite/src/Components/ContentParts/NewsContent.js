@@ -51,9 +51,10 @@ import {Col} from "reactstrap/es";
                  </Button>
 
              </Row>
-     <Row className={"row row-cols-1 row-cols-sm-3 "}>
-         {props.GlobalStore.FilterState.SetFilter===0 ? data.map(item => <NewsItem item={item} key={item.id} className={"m-2"}/>) :
-                 filterItems(data, props.GlobalStore.FilterState.SetFilter).map(item =><NewsItem item={item} key={item.id} className={"m-2"}/>)
+             <hr/>
+     <Row className={"row row-cols-1 row-cols-sm-3 justify-content-center"}>
+         {props.GlobalStore.FilterState.SetFilter===0 ? data.map(item => <NewsItem item={item} key={item.id} className={""}/>) :
+                 filterItems(data, props.GlobalStore.FilterState.SetFilter).map(item =><NewsItem item={item} key={item.id} className={''}/>)
              }
 
 

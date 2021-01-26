@@ -7,6 +7,7 @@ export default function Footer(props) {
 
 
     return <footer>
+        <hr/>
             <Row>
                 <Col >
                     <MenuUI footer={true}/>

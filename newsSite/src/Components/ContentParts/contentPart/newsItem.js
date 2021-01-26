@@ -15,37 +15,40 @@ function NewsItem(props) {
 
     return <Fragment>
         {document.cookie.split(";").map((item)=>{ return item.trim()}).includes("loginUser=true") ?
-        <Card inverse  className={"col-sm-6 text-decoration-none "} >
+        <Card inverse  className={"col-sm-5 text-decoration-none  m-2"} >
             <Link  to={`/news/${item._id}`}>
-            <CardImg className={""} width="100%" src={`https://testitschool-c0b7.restdb.io/media/${item.src}?key=5fadbc0e8639597288385325`} alt="Card image cap"  />
-            <CardImgOverlay >
-                <CardTitle tag="h5" className={"text-light small"}>{item.title}</CardTitle>
-                <CardText className={" text-truncate text-light small"}>
+            <CardImg className={"mt-2"} width="100%" src={`https://testitschool-c0b7.restdb.io/media/${item.src}?key=5fadbc0e8639597288385325`} alt="Card image cap"  />
+            {/*<CardImgOverlay >*/}
+                <CardBody>
+                <CardTitle tag="h5" className={"text-dark small"}>{item.title}</CardTitle>
+                <CardText className={" text-truncate text-dark small"}>
                     {item.preview}
                 </CardText>
-                <p className={" text-truncate text-light small "}>
+                <p className={" text-truncate text-dark small "}>
                     Категория: {item.category}<br/>
                     Статус : {item.statuc}
                 </p>
-
-            </CardImgOverlay>
+                </CardBody>
+            {/*</CardImgOverlay>*/}
             </Link>
         </Card>
             :
 
-        <Card inverse  className={"col-sm-6 overflow-hidden"} >
+        <Card inverse  className={"col-sm-5 overflow-hidden m-2"} >
                 <Link to={`/news`} onClick={login}>
-                <CardImg className={""} width="100%" src={`https://testitschool-c0b7.restdb.io/media/${item.src}?key=5fadbc0e8639597288385325`} alt="Card image cap"   />
-                <CardImgOverlay >
-                    <CardTitle  tag="h5" className={"text-light small"}>{item.title}</CardTitle>
-                    <CardText className={" text-truncate text-light small"}>
+                <CardImg className={"mt-2"} width="100%" src={`https://testitschool-c0b7.restdb.io/media/${item.src}?key=5fadbc0e8639597288385325`} alt="Card image cap"   />
+                {/*<CardImgOverlay >*/}
+                    <CardBody>
+                    <CardTitle  tag="h5" className={"text-dark small"}>{item.title}</CardTitle>
+                    <CardText className={" text-truncate text-dark small"}>
                         {item.preview}
                     </CardText>
-                    <p className={" text-truncate text-light small "}>
+                    <p className={" text-truncate text-dark small "}>
                         Категория: {item.category}<br/>
                         Статус : {item.statuc}
                     </p>
-                </CardImgOverlay>
+                        </CardBody>
+                {/*</CardImgOverlay>*/}
                 </Link>
         </Card>
 

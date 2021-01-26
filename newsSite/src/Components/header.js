@@ -7,6 +7,6 @@ export default function Header(props) {
 
     return <Fragment>
             <MenuUI/>
-
+            <hr/>
         </Fragment>
 }
